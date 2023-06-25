@@ -1,10 +1,17 @@
 # 本项目为毕业设计的Java后端代码
-	基于java17语言，使用 mybatis、radis等技术
+本项目基于java17语言，后端使用mybatis、radis、spring boot框架等后端技术
 ### 本项目需要radis，请在安装好radis的之后运行，在启动本项目中的服务
   * radis官网：https://redis.io/
+  * redis—host：127.0.0.1
+  * redis端口：6379
+  * 在开启前端管理系统钱需将redis和navicat运行
+  * 在各自电脑中的redis可能略有不同，需要根据自自己电脑中redis的host和端口进行设置
 ### 本项目所需的MySQL文件
-	db\yami_shop.sql
-### 本项目使用mysql端口为3308，请根据各各自电脑中的MySQL端口进行修改，文件路径为下:
+*	db\yami_shop.sql
+*	切记在前端开启前启动navicat
+*	本项目MySQL端口为127.0.0.1:3308
+*	请按照各自电脑的MySQL端口重新设置
+### 本项目mysql端口：127.0.0.1:3308，请根据各各自电脑中的MySQL端口进行修改，文件路径为下:
   * yami-shop-admin\src\main\resources\application-dev.yml
   * yami-shop-admin\src\main\resources\application-prod.yml
   * yami-shop-admin\src\main\resources\application-dev.yml
